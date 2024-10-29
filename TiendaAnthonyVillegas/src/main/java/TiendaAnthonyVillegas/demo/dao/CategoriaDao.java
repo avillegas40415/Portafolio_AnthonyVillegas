@@ -1,6 +1,6 @@
-package dao;
+package TiendaAnthonyVillegas.demo.dao;
 
-import domain.Categoria;
+import TiendaAnthonyVillegas.demo.domain.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoriaDao extends JpaRepository <Categoria,Long> {

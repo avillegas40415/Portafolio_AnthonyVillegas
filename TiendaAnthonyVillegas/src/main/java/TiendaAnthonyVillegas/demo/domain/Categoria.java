@@ -1,5 +1,5 @@
 
-package domain;
+package TiendaAnthonyVillegas.demo.domain;
 
 import jakarta.persistence.*;
 import java.io.Serializable;
@@ -29,7 +29,36 @@ public class Categoria implements Serializable {
     }
     
     
+    //PRUEBA
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+
+    }
     
+    public Long getIdCategoria() {
+        return idCategoria;
+    }
+
+    public void setIdCategoria(Long idCategoria) {
+        this.idCategoria = idCategoria;
+
+    }
+    
+    public String getRutaImagen() {
+        return rutaImagen;
+    }
+
+    public void setRutaImagen(String rutaImagen) {
+        this.rutaImagen = rutaImagen;
+
+    }
+    
+    // FIN PRUEBA
+
     
 
     // Otros campos y métodos
