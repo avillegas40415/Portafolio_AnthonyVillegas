@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Ignora las credencias de Firebase ###
+firebase/techshop-90bdb-firebase-adminsdk-ur94h-51e1d4a4a5.json
