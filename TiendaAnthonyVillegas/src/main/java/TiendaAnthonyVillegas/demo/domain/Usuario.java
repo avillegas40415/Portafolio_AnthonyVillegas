@@ -69,5 +69,16 @@ public class Usuario implements Serializable {
         return roles;
     }
     
+    public void setPassword(String password){
+        this.password = password;
+    }
+    
+    public void setRutaImagen(String rutaImagen){
+        this.rutaImagen = rutaImagen;
+    }
+    
+    public void setActivo(boolean activo) {
+        this.activo = activo;
+    }
 }
 
