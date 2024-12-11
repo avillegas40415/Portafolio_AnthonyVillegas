@@ -1,6 +1,5 @@
 package TiendaAnthonyVillegas.demo.service.impl;
 
-
 import TiendaAnthonyVillegas.demo.dao.UsuarioDao;
 import TiendaAnthonyVillegas.demo.domain.Rol;
 import TiendaAnthonyVillegas.demo.domain.Usuario;
@@ -19,7 +18,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service("userDetailsService")
 public class UsuarioDetailServiceImp implements UsuarioDetailsService, UserDetailsService {
-
     @Autowired
     private UsuarioDao usuarioDao;
     @Autowired

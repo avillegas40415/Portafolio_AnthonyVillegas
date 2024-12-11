@@ -54,6 +54,7 @@ public class RegistroServiceImp implements RegistroService {
         usuario.setPassword(codigo.encode(usuario.getPassword()));
 
         if (!imagenFile.isEmpty()) {
+            usuario.setActivo(true);
             usuarioService.save(usuario, false);
             usuario.setRutaImagen(
                     firebaseStorageService.cargaImagen(

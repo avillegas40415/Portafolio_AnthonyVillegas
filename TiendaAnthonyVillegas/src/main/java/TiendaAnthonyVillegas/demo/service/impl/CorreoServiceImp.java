@@ -25,6 +25,7 @@ public class CorreoServiceImp implements CorreoService {
         MimeMessageHelper helper 
                 = new MimeMessageHelper(message, 
                         true);
+        helper.setFrom("pruebas@avbsoporte.com"); //Prueba
         helper.setTo(para);
         helper.setSubject(asunto);
         helper.setText(contenidoHtml,true);
